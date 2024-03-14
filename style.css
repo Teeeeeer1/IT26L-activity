@@ -1,0 +1,593 @@
+/* index.html style */
+
+nav{
+    top: 0;
+    left: 0;
+    padding: 30px;
+    display: flex;
+    align-items: end;
+    padding-left: 50%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav .logo{
+    width: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+    color: #000000;
+}
+
+nav a:hover{
+    background-color: #1800EB;
+    color: #FFFFFF;
+    padding: 10px;
+    transition: 0.30s;
+}
+
+.homehero{
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.homehero video{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.homehero h1 p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.homehero p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* .bgindex{
+    background-image: url(/HAYAHAY-BEACH-RESORT/325773028_869514534097164_3901307484698746122_n.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+
+body{
+    background-color: #4ea2eb67;
+}
+
+.head{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    text-align: left;
+    padding-left: 40%;
+}
+
+p{
+    padding-left: 20px;
+}
+
+.book{
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 2% 10% 2% 46%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.book a{
+    text-decoration: none;
+}
+
+.book:hover{
+    background-color: royalblue;
+    color: #FFFFFF;
+    padding: 10px;
+    transition: 0.30s;
+    border-radius: 100px;
+}
+
+.gallery1 img{
+    height: 100%;
+    width: 100%;
+    margin-right: 5%;
+    
+}
+
+.gallery2 img{
+    height: 100%;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.gallery3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.p1{
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.p2{
+    text-align: right;
+}
+
+.container{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.gallery{
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: large;
+}
+
+/* End of index.html style */
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 14px;
+    margin: 24px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 14px;
+}
+  
+.card:hover {
+    width: 21%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.8s;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url(HAYAHAY-BEACH-RESORT/340524531_699331991968420_5109840563360782559_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 40px;
+    color: #FFFFFF;
+    font-size: x-large; 
+}
+
+.loginbg{
+    background: transparent;
+    border: none;
+    backdrop-filter: blur(15px) brightness(80%);
+    border-radius: 20px;
+}
+
+
+.login .input-box{
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+    background: #000000;
+    border-radius: 40px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(249, 249, 249, 0.97);
+    border-radius: 40px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.input-box input::placeholder{
+    color: #ffffff;
+ }
+
+.login .btn{
+    width: 100%;
+    height: 45px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    
+
+}
+
+.remember-forgot{
+    color: #FFFFFF;
+    margin-right: 3px;
+    font-size: medium;
+}
+
+.remember-forgot a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cottages{
+    font-size: 70px;
+    background-color: #007dea70;
+}
+
+.rr{
+    
+    color: white;
+    display: inline;
+    border-radius: 0 40px 20px 0;
+}
+
+h2{
+    background-color: #FFFFFF;
+}
+
+.container1{
+    padding: 2px 16px;
+}
+
+.container1 p{
+    font-size: medium;
+}
+
+/* for reservation */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+  .form-group {
+    display: flex;
+    gap: 5px;
+}
+  
+label {
+    width: 100px;
+    text-align: right;
+}
+  
+input, select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #2980b9;
+}
+
+.cottage{
+    margin: 40px;
+    padding: 50px;
+    background-color: #00C7EB;
+}
+
+.container6{
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.cottages1{
+    width: 20%;
+    height: 300px;
+    margin: 90px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.cottageimg{
+    height: 100%;
+    width: 100%;
+    margin-right: 5%;
+}
+
+.cottageimg img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.cottageimg :hover img{
+    transform: scale(1.2);
+    
+}
+
+
+
+
+/* Reservation */
+
+.container3{
+    border-style: solid;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: #351616;
+    color: #070707;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+}
+  
+.form-group {
+    padding: 20px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #070707;
+    border-radius: 5px;
+}
+  
+input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #150070;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homehero-reservation{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url(/HAYAHAY-BEACH-RESORT/340855513_563861375845514_3287978395505917486_n.jpg );
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.homehero-reservation h1{
+    color:  white;
+    display: inline-block;
+    width: 100%;
+}
+  
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.select-style {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+
+.select-style::-ms-expand {
+    display: none;
+  }
+
+.container4{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.aimage{
+    flex: 1;
+    overflow: hidden;
+}
+.aimage img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.aimage:hover img{
+    transform: scale(1.2);
+}
+.abouttext{
+    flex: 1; 
+
+}
+.abouttext h2{
+    margin-top: 30%;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:#050505;
+}
+.abouttext p{
+    margin-top: 5%;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 20px;
+    color:#050505;
+}
+
+.cottageimg{
+    width: 100%;
+    height: 450px;
+}
+
+.cottageimg:hover img{
+    transform: scale(1.2);
+}
+
+.cottageimg img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.mv{
+    text-align: center;
+}
+
+.mv h1{
+    padding: 20px;
+    font-size: 50px;
+    border-color: #000000 solid;
+}
+
+.mv p{
+    font-size: 20px;
+}
+
+.container5{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    text-align: center;
+}
+
+.mission{
+    background-color: #00C7EB;
+}
+
+.bathtub{
+    background-color: #00C7EB;
+}
+
+.bathtub h2{
+    background-color: #00C7EB;
+}
+
+.abouttext p{
+    color: #0000008e
+}
+
+@media only screen and (max-width: 768px) {
+nav {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+  
+nav a {
+    margin: 10px 0;
+}
+
+.head{
+    font-size: 10%;
+    padding-left: 50%;
+    justify-content: baseline;
+    position: fixed;
+}
+
+.book {
+    margin: 10px auto;
+}
+.container {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+      
+.gallery img {
+    width: 48%; 
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+}
+      
+.p1, .p2 {
+    flex: 1;
+    text-align: justify;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container6{
+    display: block;
+}
+
+.card{
+    display: block;
+}
+
+.container1 p{
+    font-size: 50%;
+}
+}
